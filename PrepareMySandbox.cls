@@ -4,6 +4,7 @@
  * 
  * @author  Shumon Saha <https://www.salesforce.com/trailblazer/shumon>
  * @see     salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records
+ * @see     developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_System_SandboxPostCopy.htm
  * @since   15 November 2021
  * @version 1.1
  * 
