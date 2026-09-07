@@ -61,7 +61,7 @@ global class PrepareMySandbox implements SandboxPostCopy // 🏖️
         }
         
         /* *********************************************************************
-         * Insert related Contacts 👨‍💼👔💼👞
+         * Insert ***RELATED*** Contacts 👨‍💼👔💼👞
          * ********************************************************************/
         StaticResource contactStaticResource =
         [
