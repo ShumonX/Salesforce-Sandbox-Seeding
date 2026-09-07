@@ -1,8 +1,8 @@
 /**
  * Select this class to run post-refresh when refreshing (♻️) a sandbox.
  * 
- * @author  Shumon Saha
- * @link    salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records
+ * @author  Shumon Saha <https://www.salesforce.com/trailblazer/shumon>
+ * @see     salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records
  * @since   15 November 2021
  * @version 1.1
  * 
@@ -23,7 +23,7 @@ global class PrepareMySandbox implements SandboxPostCopy
     global void runApexClass(SandboxContext context)
     {
         /*
-         * Insert sample Accounts
+         * Insert sample Accounts 🏢🏣🏤
          */
         StaticResource accountStaticResource =
         [
@@ -47,7 +47,7 @@ global class PrepareMySandbox implements SandboxPostCopy
         insert accountList;
         
         /*
-         * Use a Map to avoid creating an External ID field on Account
+         * Use a Map (not related to 🗺️📍) to avoid creating an External ID field on Account
          */
         Map<String, Id> accountMap = new Map<String, Id>();
         for (Account acc : accountList)
@@ -56,7 +56,7 @@ global class PrepareMySandbox implements SandboxPostCopy
         }
         
         /*
-         * Insert related Contacts
+         * Insert related Contacts 👨‍💼👔💼👞
          */
         StaticResource contactStaticResource =
         [
