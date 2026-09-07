@@ -1,6 +1,6 @@
 /**
  * Select this Apex class when refreshing (♻️) a sandbox
- * to automatically run after sandbox refresh & activation.
+ * to automatically run immediately after sandbox refresh & activation.
  * 
  * @author  Shumon Saha <https://www.salesforce.com/trailblazer/shumon>
  * @see     salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records
