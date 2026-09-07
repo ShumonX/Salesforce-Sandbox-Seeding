@@ -24,9 +24,9 @@ global class PrepareMySandbox implements SandboxPostCopy // 🏖️
 {
     global void runApexClass(SandboxContext context) // 🏃‍♂️
     {
-        /*
+        /* *********************************************************************
          * Insert sample Accounts 🏢🏣🏤
-         */
+         * ********************************************************************/
         StaticResource accountStaticResource =
         [
             SELECT Body
@@ -50,19 +50,19 @@ global class PrepareMySandbox implements SandboxPostCopy // 🏖️
         
         insert accountList; // 🚛🚚🚒
         
-        /*
+        /* *********************************************************************
          * Use a Map (not related to 🗺️📍),
          * to avoid creating an External ID field on Account.
-         */
+         * ********************************************************************/
         Map<String, Id> accountMap = new Map<String, Id>();
         for (Account acc : accountList)
         {
             accountMap.put(acc.Name, acc.Id);
         }
         
-        /*
+        /* *********************************************************************
          * Insert related Contacts 👨‍💼👔💼👞
-         */
+         * ********************************************************************/
         StaticResource contactStaticResource =
         [
             SELECT Body
