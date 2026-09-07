@@ -1,5 +1,5 @@
 /**
- * Select this Apex class when refreshing (♻️) a sandbox
+ * Select this Apex class when refreshing (♻️) a sandbox (🏖️) -
  * to automatically run immediately after sandbox refresh & activation.
  * 
  * @author  Shumon Saha <https://www.salesforce.com/trailblazer/shumon>
@@ -20,9 +20,9 @@
  *
  * Single SOQL statments are broken into multiple lines, in a staircase indentation.
  */
-global class PrepareMySandbox implements SandboxPostCopy
+global class PrepareMySandbox implements SandboxPostCopy // 🏖️
 {
-    global void runApexClass(SandboxContext context)
+    global void runApexClass(SandboxContext context) // 🏃‍♂️
     {
         /*
          * Insert sample Accounts 🏢🏣🏤
@@ -35,6 +35,7 @@ global class PrepareMySandbox implements SandboxPostCopy
         ];
         String accountCsv = accountStaticResource.Body.toString();
         Account[] accountList = new Account[] {};
+        
         for (String row : accountCsv.split('\n'))
         {
             String[] column = row.split(',');
@@ -45,8 +46,9 @@ global class PrepareMySandbox implements SandboxPostCopy
                        Phone = column[2],
                         Type = column[3]
             ));
-        }
-        insert accountList;
+        }   // 🔚 End of for-loop for Account
+        
+        insert accountList; // 🚛🚚🚒
         
         /*
          * Use a Map (not related to 🗺️📍),
@@ -69,6 +71,7 @@ global class PrepareMySandbox implements SandboxPostCopy
         ];
         String contactCsv = contactStaticResource.Body.toString();
         Contact[] contactList = new Contact[] {};
+        
         for (String row : contactCsv.split('\n'))
         {
             String[] column = row.split(',');
@@ -81,7 +84,9 @@ global class PrepareMySandbox implements SandboxPostCopy
                     Phone = column[4],
                     Email = column[5]
             ));
-        }
-        insert contactList;
-    }
-}
+        }   // 🔚 End of for-loop for Contact
+        
+        insert contactList; // 🚜👨‍🌾🌾
+        
+    }       // 🔚 End of Function
+}           // 🔚 End of Class
