@@ -1,5 +1,5 @@
 /**
- * Select this Apex class when refreshing (♻️) a sandbox (🏖️📦) -
+ * Select this Apex class when refreshing (♻️) a sandbox (🏖️🐚📦) -
  * to automatically run immediately after sandbox refresh & activation.
  * 
  * @author  Shumon Saha <https://www.salesforce.com/trailblazer/shumon>
