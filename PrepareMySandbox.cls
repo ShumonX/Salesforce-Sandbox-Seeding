@@ -47,7 +47,8 @@ global class PrepareMySandbox implements SandboxPostCopy
         insert accountList;
         
         /*
-         * Use a Map (not related to 🗺️📍) to avoid creating an External ID field on Account
+         * Use a Map (not related to 🗺️📍),
+         * to avoid creating an External ID field on Account.
          */
         Map<String, Id> accountMap = new Map<String, Id>();
         for (Account acc : accountList)
