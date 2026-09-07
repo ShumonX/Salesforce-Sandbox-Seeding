@@ -57,7 +57,7 @@ global class PrepareMySandbox implements SandboxPostCopy // 🏖️
         Map<String, Id> accountMap = new Map<String, Id>();
         for (Account acc : accountList)
         {
-            accountMap.put(acc.Name, acc.Id);
+            accountMap.put(acc.Name, acc.Id); // 🔑🗝️⚜️
         }
         
         /* *********************************************************************
