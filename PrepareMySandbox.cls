@@ -80,7 +80,7 @@ global class PrepareMySandbox implements SandboxPostCopy // 🏖️🐚📦♻�
             (
                 FirstName = column[0],
                  LastName = column[1],
-                AccountId = accountMap.get(column[2]),
+                AccountId = accountMap.get(column[2]), // Get Account ID using the Account Name
                     Title = column[3],
                     Phone = column[4],
                     Email = column[5]
