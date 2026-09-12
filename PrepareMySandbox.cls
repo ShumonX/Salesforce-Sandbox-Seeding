@@ -20,7 +20,7 @@
  *
  * Single SOQL statments are broken into multiple lines, in a staircase indentation.
  */
-global class PrepareMySandbox implements SandboxPostCopy // 🏖️
+global class PrepareMySandbox implements SandboxPostCopy // 🏖️🐚📦♻️
 {
     global void runApexClass(SandboxContext context) // 🏃‍♂️
     {
