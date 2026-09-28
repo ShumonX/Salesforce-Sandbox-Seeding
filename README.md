@@ -1,4 +1,4 @@
-# Salesforce-Sandbox-Seeding 🌱
+# Salesforce Sandbox Seeding 🌱
 Propagate data to sandboxes for faster innovation and ideal training environments with Sandbox Seeding.
 
 See my article on SalesforceBen 🔗 [Auto-Populate Salesforce Sandboxes with Sample Records](https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/)
